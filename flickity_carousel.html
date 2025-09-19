@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Product Carousel</title>
+<link rel='stylesheet' href='https://unpkg.com/flickity@2/dist/flickity.min.css'>
+<style>
+body { margin: 0; font-family: Arial, sans-serif; }
+.carousel {
+  background: #f8f8f8;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+.carousel-cell {
+  width: 100%;
+  position: relative;
+}
+.carousel-cell img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.text-box {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  max-width: 90%;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-line;
+  border-radius: 6px;
+}
+</style>
+</head>
+<body>
+<div class='carousel' data-flickity='{ "wrapAround": true, "pageDots": true, "autoPlay": false }'>
+
+  <div class='carousel-cell'>
+    <img src='UploadedImage1.jpg' alt='Product Image'>
+    <div class='text-box'>Item Name: Gildan® Men's DryBlend® 50 Cotton/50 Poly T-Shirt
+Type of Imprint: Screenprint, one location
+Color: Red
+Artwork file name: DO_T-Shirt_graphic_22</div>
+  </div>
+
+  <div class='carousel-cell'>
+    <img src='UploadedImage2.jpg' alt='Product Image'>
+    <div class='text-box'>Item Name: Gildan Softstyle® Ladies' V-Neck T-Shirt
+Type of Imprint: Screenprint, one location
+Color: Cherry Red
+Artwork file name: DO_T-Shirt_graphic_22</div>
+  </div>
+
+  <div class='carousel-cell'>
+    <img src='UploadedImage3.jpg' alt='Product Image'>
+    <div class='text-box'>Item Name: 
+Men’s: Vansport Omega Solid Mesh Tech Polo Shirt
+Women’s: Women's Vansport Omega Solid Mesh Tech Polo Shirt
+Type of Imprint: Embroidery, two locations (left chest and left sleeve)
+Color: Sport Red
+Artwork file name:
+DO_Swag_PoloShirt_Crest_22
+DO_Swag_PoloShirt_WSB_22</div>
+  </div>
+
+  <div class='carousel-cell'>
+    <img src='UploadedImage4.jpg' alt='Product Image'>
+    <div class='text-box'>Item Name: 
+Men’s: ST850 Sport-Tek® Sport-Wick® Stretch 1/2-Zip Pullover
+Women’s: LST850 Sport-Tek® Ladies Sport-Wick® Stretch 1/2-Zip Pullover
+Type of Imprint: Screenprint, one location
+Color: True Red
+Artwork file name: WSB_White_Centered_UW-Madison_R</div>
+  </div>
+
+  <div class='carousel-cell'>
+    <img src='UploadedImage5.jpg' alt='Product Image'>
+    <div class='text-box'>Item Name: 
+Men’s: F217 Port Authority Value Fleece Jacket
+Women’s: L217 Port Authority Ladies Value Fleece Jacket
+Type of Imprint: Embroidery, one location (left breast)
+Color: Black
+Artwork file name: WSB_White_Centered_UW-Madison_R</div>
+  </div>
+
+  <div class='carousel-cell'>
+    <img src='UploadedImage6.jpg' alt='Product Image'>
+    <div class='text-box'>Item Name: Nike Heritage 86 Cap
+Type of Imprint: Embroidered (two locations)
+Front (crest)
+Side (WSB)
+Colors: White, University Red, Anthracite Black (charcoal grey), Black
+Artwork file name (varies by color):
+White: DO_WSB_white_23, DO_Swag_NikeCap_WSB_22
+Red: DO_WSB_red_23, DO_Swag_NikeCap_WSB_22
+Anthracite Black: DO_Swag_NikeCap_Crest_gray_22, DO_Swag_NikeCap_WSB_22
+Black: DO_Crest_darkergray_23, DO_Swag_NikeCap_WSB_22</div>
+  </div>
+
+  <div class='carousel-cell'>
+    <img src='UploadedImage7.jpg' alt='Product Image'>
+    <div class='text-box'>Item Name: Stocking cap
+Type of Imprint: Embroidery, one location 
+Color: Red
+Artwork file name: DO_Swag_StockingHat_23_Final
+Minimum: 100</div>
+  </div>
+
+  <div class='carousel-cell'>
+    <img src='UploadedImage8.jpg' alt='Product Image'>
+    <div class='text-box'>Item Name: X-Tra Value Visor
+Type of Imprint: Embroidery, two locations
+Color: White, with red embroidery
+Artwork file name: 
+DO_visor_crest_business_red_24
+DO_WSB_red_23
+Minimum: 24</div>
+  </div>
+
+  <div class='carousel-cell'>
+    <img src='UploadedImage9.jpg' alt='Product Image'>
+    <div class='text-box'>Item Name: Daytona Sunglasses
+Type of Imprint: Screenprint
+Color: Red
+Artwork file name: DO_Sunglasses_22
+Minimum: 200</div>
+  </div>
+
+</div>
+<script src='https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js'></script>
+</body>
+</html>
